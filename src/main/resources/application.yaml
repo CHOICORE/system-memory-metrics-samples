@@ -1,0 +1,11 @@
+spring.application.name: metrics
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    metrics:
+      enabled: true
+
